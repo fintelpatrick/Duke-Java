@@ -1,0 +1,40 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+#d1{
+  text-align: center;
+  border: black
+}
+#d2{
+  width: 109pt;
+  padding: 0pt;
+  color: Black;
+  border: 5px solid black;
+
+}
+#d3{
+  width: 109pt;
+  border: 5px solid black;
+  color: black;
+  text-align : left;
+  background-color: lightsteelblue;
+}
+#d4{
+  text-align: center;
+}
+#d5{
+  text-align: center;
+}
+#d6{
+  text-align: center;
+}
+.orangeback{
+  background-color: orange
+}
+.fuchsiaback{
+  background-color: fuchsia
+}
+.greenback{
+  background-color: green
+}

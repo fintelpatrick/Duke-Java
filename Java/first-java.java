@@ -44,26 +44,3 @@ function picPerimeter(namefile){
 }
 
 print(picPerimeter('nyc-skyline.jpg'))
-
-//Html java 1
-function buttonOne(){
-  alert('Button one has been clicked');
-}
-function buttonTwo(){
-  alert('Barrrrrrfffffff');
-}
-function buttonThree(){
-  alert('Eat it nerd!');
-}
-function confirmation(){
-  confirm('Are you sure?');
-}
-function receive_OK(){
-  var choice = confirmation();
-  if (choice == true){
-    alert('You pressed ok!');
-  }
-  else{
-    alert('Something went wrong');
-  }
-}
