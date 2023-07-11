@@ -1,0 +1,10 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1>Filter Project</h1>
+<canvas id="canv"></canvas> <canvas id="canv2"></canvas>
+<h3>Upload Image</h3>
+<p><input type="file" multiple="false" accept="image/*" id="file" onchange="upload()"></p>
+<h3>Make Change</h3>
+<p><input type="button" value="Make Gray" id="mkgry" onclick="makeGray()"> <input type="button" value="Make Red" id="mkRed" onclick="makeRed()"> <input type="button" value="Make Blue" id="mkblue" onclick="makeBlue()"> <input type="button" value="Make Green" id="mkGreen" onclick="makeGreen()"></p>
+<p><input type="button" value="Make Rainbow" id="mkrnbw" onclick="makeRainbow()"></p>
+<h3>Reset</h3>
+<p><input type="button" value="Reset" id="reset" onclick="reset()"> <input type="button" value="Clear Canvas" id="clrcanv" onclick="clearCanv('canv', 'canv2')"></p>
