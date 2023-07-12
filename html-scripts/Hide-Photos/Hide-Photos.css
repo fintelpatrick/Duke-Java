@@ -1,0 +1,15 @@
+html{
+  background-color: lightgrey;
+}
+h1{
+  text-align: center;
+  color: Black;
+  /*background-color:;*/
+}
+canvas{
+  height: 200px;
+  border: 2px solid; Black;
+}
+input{
+  font-size: 14pt;
+}
